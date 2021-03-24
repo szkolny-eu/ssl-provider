@@ -4,3 +4,4 @@
 
 rootProject.name = "ssl-provider"
 include ':app'
+include ':lib'
