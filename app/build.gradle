@@ -11,7 +11,7 @@ android {
     compileSdkVersion setup.compileSdk
 
     defaultConfig {
-        applicationId "eu.szkolny.sslprovider"
+        applicationId "eu.szkolny.sslprovider.sample"
         minSdkVersion setup.minSdk
         targetSdkVersion setup.targetSdk
 
@@ -23,7 +23,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -44,6 +44,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.3.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation project(':lib')
+    implementation("com.squareup.okhttp3:okhttp") { version { strictly "3.12.13" } }
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
