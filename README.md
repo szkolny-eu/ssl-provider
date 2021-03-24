@@ -69,6 +69,11 @@ building your client** (or build another one after installing SSL). I am no expe
 client probably keeps some reference to the old SSL context, along with the provider and enabled
 protocols.
 
+### Important information #2
+
+You should not install both the GMS provider AND the Conscrypt provider (i.e. first without TLS1.3,
+then with TLS1.3) - this will crash your app. Just.. don't.
+
 ## What is in the Conscrypt ZIP file?
 
 The ZIP file contains a compiled version of the [Conscrypt](https://github.com/google/conscrypt) library.
