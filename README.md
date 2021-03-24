@@ -45,7 +45,7 @@ repositories {
      maven { url "https://jitpack.io" }
 }
 dependencies {
-      implementation "eu.szkolny:ssl-provider:1.0"
+      implementation "eu.szkolny:ssl-provider:1.0.0"
 }
 ```
 
