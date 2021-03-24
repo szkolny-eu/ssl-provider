@@ -1,0 +1,7 @@
+<!--
+  ~ Copyright (c) Kuba Szczodrzyński 2021-3-24.
+  -->
+
+<resources>
+    <string name="app_name">ssl-provider</string>
+</resources>

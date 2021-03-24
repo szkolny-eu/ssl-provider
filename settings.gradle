@@ -1,0 +1,6 @@
+/*
+ * Copyright (c) Kuba Szczodrzyński 2021-3-24.
+ */
+
+rootProject.name = "ssl-provider"
+include ':app'
